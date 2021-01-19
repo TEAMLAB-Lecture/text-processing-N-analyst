@@ -66,7 +66,7 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
-    vowels="aeiou"
+    vowels="aeiouAEIOU"
     no_vowel_string = ''
 
     # 한글자씩 루프
